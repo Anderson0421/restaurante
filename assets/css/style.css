@@ -1681,12 +1681,8 @@ textarea.input-field {
   
     
   }
-  .menu-card .span {
-    font-size: 13px;
-  }
   .menu-card .card-title { transition: var(--transition-1); margin-top: 5px;}}
 @media (min-width: 768px) {
-
   /**
    * REUSED STYLE
    */
