@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * PRELOAD
  * 
@@ -14,7 +12,6 @@ window.addEventListener("load", function () {
   preloader.classList.add("loaded");
   document.body.classList.add("loaded");
 });
-
 
 
 /**
@@ -44,8 +41,6 @@ const toggleNavbar = function () {
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
-
-
 
 /**
  * HEADER & BACK TOP BTN
@@ -143,22 +138,6 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseover", function
 addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide);
 
 window.addEventListener("load", autoSlide);
-/**
- * FORMULARIO 
- */
-
-/**const evento = document.getElementById('send')
-const enviarFormulario =() => {
-        let nombre = document.getElementById('nombres').value;
-        let mensaje = document.getElementById('mensaje').value;
-        let numero= +51941166905;
-var win= window.open(`https://wa.me/${numero}?text=Hola%20mi%20nombre%20es%20${nombre}, Asunto:%20${mensaje}`,'_blank');       
-}
-evento.addEventListener('click', enviarFormulario)
-/**
- * PARALLAX EFFECT
- */
-
 
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 
